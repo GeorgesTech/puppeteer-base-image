@@ -46,6 +46,7 @@ RUN apt-get update \
     libxtst6 \
     lsb-release \
     xdg-utils \
+    libgbm-dev \
     ###
     --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
