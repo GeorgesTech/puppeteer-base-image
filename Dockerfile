@@ -50,7 +50,3 @@ RUN apt-get update \
     ###
     --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
-
-WORKDIR /app
-RUN chown node:node /app
-USER node
