@@ -1,0 +1,9 @@
+{
+    "name": "puppeteer-base-image",
+    "scripts": {
+        "test": "node test/puppeteer.test.js"
+    },
+    "dependencies": {
+        "puppeteer": "~1.0.0"
+    }
+}
